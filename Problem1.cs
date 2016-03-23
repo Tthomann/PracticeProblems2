@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace PracticeProblems2
 {
-    public class InputCheck
+    public class Problem1
     {
         List<string> CollectiveInput = new List<string>();
         string userInput;
-        public InputCheck()
+        public Problem1()
         {
 
         }
