@@ -11,20 +11,33 @@ namespace PracticeProblems2
        
         static void Main(string[] args)
         {
+            int i;
+
+
+
             Problem2 problem2 = new Problem2();
             problem2.MakeTriangle();
 
             problem2.DownTriangle();
-           problem2.flipTriangle();
+            problem2.flipTriangle();
+
+            Console.ReadLine();
+            bool TylerisCool = true;
+            
+            for (i = 0; i < 10; i++)
+            {
+                youtube YouTube = new youtube();
+            }
             Console.ReadLine();
 
-            bool TylerisCool = true;
             Problem1 inputCheck = new Problem1();
-
-            while(TylerisCool)
+            if ( i == 10) {
+            while (TylerisCool)
              {
             inputCheck.CheckList();
              }
+            Console.ReadLine();
+            }
         }
     }
 }

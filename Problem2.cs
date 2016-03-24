@@ -40,21 +40,7 @@ namespace PracticeProblems2
         }
           
            
-        public void DownTriangle()
-        {
-            for (outerIndex = 0; outerIndex < sizeOfList; outerIndex++)
-            {
-                UpsideDownTriangle.Add(new List<string>());
-
-                for (innerIndex = sizeOfList - outerIndex; innerIndex > 0; innerIndex--)
-                {
-                    Triangle[outerIndex].Add("*");
-                    Console.Write("*");
-                 }
-                Console.WriteLine("\n");
-            }
-            Console.ReadLine();
-        }
+       
         public void flipTriangle()
         {
         for(mainList =1; mainList <= sizeOfList; mainList++)
@@ -69,6 +55,21 @@ namespace PracticeProblems2
                 }
                 Console.WriteLine("\n");
             }
+        }
+        public void DownTriangle()
+        {
+            for (outerIndex = 0; outerIndex < sizeOfList; outerIndex++)
+            {
+                UpsideDownTriangle.Add(new List<string>());
+
+                for (innerIndex = sizeOfList - outerIndex; innerIndex > 0; innerIndex--)
+                {
+                    Triangle[outerIndex].Add("*");
+                    Console.Write("*");
+                }
+                Console.WriteLine("\n");
+            }
+            Console.ReadLine();
         }
 
     }
